@@ -26,6 +26,7 @@ namespace MVCFlowerShopLab2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddRazorPages();
 
             services.AddDbContext<MVCFlowerShopLab2Context>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("MVCFlowerShopLab2Context")));
@@ -55,9 +56,8 @@ namespace MVCFlowerShopLab2
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapDefaultControllerRoute();
+                endpoints.MapRazorPages();
             });
         }
     }

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2020-07-07T07:07:45.5704155Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-07-07T07:08:10.9385508Z"
+    }
+  },
+  "parameters": {
+    "resourceGroup": {
+      "Type": "resourceGroup",
+      "Value": "MVCFlowerShopLab220200707134048ResourceGroup"
+    },
+    "subscriptionId": {
+      "Type": "subscription",
+      "Value": "2e5677a0-d87f-4ac3-9a6d-43ba7ce47e66"
+    }
+  }
+}

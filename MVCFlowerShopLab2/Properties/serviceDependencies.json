@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "mssql1": {
-      "type": "mssql",
-      "connectionId": "MVCFlowerShopLab2Context"
-    },
     "mssql2": {
       "type": "mssql",
       "connectionId": "MVCFlowerShopLab2NewContextConnection"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "MVCFlowerShopLab2Context"
     }
   }
 }
